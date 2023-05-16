@@ -1,0 +1,360 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   
+
+    <title>Vegas-Ecommerce</title>
+    <style>
+        section{
+            background-color: antiquewhite;
+        }
+      
+        .navbar{
+            background-color: antiquewhite;
+            padding: 30px;
+        }
+        .navbar .nav-item{
+            margin-left : 50px;
+            padding-left: 30px;
+        }
+       button{
+            border-radius: 25%;
+            margin-left: 10px;
+            background-color: burlywood;
+       }
+    </style>
+  </head>
+  <body>
+  
+  
+  <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0sTmZAazjsGzXvGK6J5PtQWCqsv-w1-1sg&usqp=CAU" height ="50px" width = "50px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUS.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="item.html">Items</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="item_form.html">Item Form</a>
+              </li>   
+			<li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>       
+			<li class="nav-item">
+                <a class="nav-link" href="signup.html">SignUP</a>
+              </li>   
+              <li class="nav-item"><a href="cart.html">
+                <i class="bi bi-cart4"><img src="cart4.svg" alt="" height="30px" width="30px"></i>
+                <span class="padding_10"></span></a>
+             </li>     
+          </ul>
+        </div>
+		
+		
+      </nav>
+	  
+	  
+	  
+	  <!-- carousel -->
+	  
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/spring-2022-trends-1642786776.jpg?resize=1200:*" class="d-block w-100" alt="img1" height = "400vh">
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.dezeen.com/uploads/2019/02/metiers-dart-collection-chanel-the-metropolitan-museum-of-art-temple_dezeen_hero.jpg" class="d-block w-100" alt="img2" height = "400vh">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.betterteam.com/images/model-job-description-3602x2401-2020127.jpeg?crop=16:9,smart&width=1200&dpr=2" class="d-block w-100" alt="img3" height = "400vh">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+	  
+	  
+	<!-- Products -->  
+	  
+	<section id="course-info" class="container-fluid ">
+            <div class="container pt-5 pb-5 d-md-inline-block d-sm-none d-none">
+                <h2 class="text-center pb-5">Products</h2>
+            </div>
+                <div class="row">
+                    <div class="col-md-3 ">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://assets.ajio.com/medias/sys_master/root/20220623/g3gy/62b3819faeb26921af423d20/-473Wx593H-464531848-navy-MODEL.jpg" alt="Two large monitor desktop setup"
+                                    class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3" id="first">
+                                <h3>Soft Cotten</h3>
+                                <p class="courses-label">750-/</p>
+                                <p >A t-shirt is a type of fabric with short sleeves that covers our arms and shoulders. T-shirts are constructed of stretchy, light, and affordable fabric that is comfortable to wear.</p>
+                                <button type="button">Buy Now</button>
+                                <a href="cart.html"><button type="button">Add to Cart</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://fs02.vseosvita.ua/02008m2x-70d7-473x593.jpg"
+                                    alt="Closeup of a cell phone held in-hand" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Silk Fabric</h3>
+                                <p class="courses-label">900-/</p>
+                                <p>A t-shirt is a type of fabric with short sleeves that covers our arms and shoulders. T-shirts are constructed of stretchy, light, and affordable fabric that is comfortable to wear.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="courses">
+                            <div class="image-container d-md-inline-block d-sm-none d-none">
+                                <img src="https://logodix.com/logo/906518.jpg"
+                                    alt="Closeup of a professional camera strapped around a person" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Full Coller T-Shirt</h3>
+                                <p class="courses-label">500-/</p>
+                                <p >A t-shirt is a type of fabric with short sleeves that covers our arms and shoulders. T-shirts are constructed of stretchy, light, and affordable fabric that is comfortable to wear.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 ">
+                        <div class="courses">
+                            <div class="image-container d-md-inline-block d-sm-none d-none">
+                                <img src="https://logodix.com/logo/906518.jpg"
+                                    alt="Closeup of a professional camera strapped around a person" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Full Coller T-Shirt</h3>
+                                <p class="courses-label">500-/</p>
+                                <p >A t-shirt is a type of fabric with short sleeves that covers our arms and shoulders. T-shirts are constructed of stretchy, light, and affordable fabric that is comfortable to wear.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://www.wholesalecatalogz.com/image/cache/catalog/23-03-25/sarees-wholesaler-surat-9045d0de6f44d760b59ec32b4e2ea9a1-473x593.jpeg"
+                                    alt="Open laptop computer with dashboard on screen" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>750-/</h3>
+                                <p class="courses-label">Jogger</p>
+                                <p >This Sophisticated Sky Blue Color Digital Printed Designer Jogger made from Linen Cotton Fabric. And this fabric is Light Weight Materials.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/LN8321-473x593.jpg" alt="Chess pieces on a Chess board"
+                                    class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Saree</h3>
+                                <p class="courses-label">2050-/</p>
+                                <p >This Trendy Red Color Digital Printed Designer Saree made from Linen Cotton Fabric. And this fabric is Light Wight Materials.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/linen/ln-8041-473x593.jpg"
+                                    alt="Closeup of a smart watch on a person's wrist" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Saree</h3>
+                                <p class="courses-label">4000-/</p>
+                                <p >This Sophisticated Sky Blue Color Digital Printed Designer Saree made from Linen Cotton Fabric. And this fabric is Light Weight Materials.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3">
+                        <div class="courses">
+                            <div class="image-container">
+                                <img src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/linen/ln-8041-473x593.jpg"
+                                    alt="Closeup of a smart watch on a person's wrist" class="img-fluid">
+                            </div>
+                            <div class="content bg-light px-3 py-3">
+                                <h3>Saree</h3>
+                                <p class="courses-label">4000-/</p>
+                                <p >This Sophisticated Sky Blue Color Digital Printed Designer Saree made from Linen Cotton Fabric. And this fabric is Light Weight Materials.</p>
+                                <button type="button">Buy Now</button>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="container-fluid">
+                <img class="img-responsive d-md-none" src="https://assets.ajio.com/medias/sys_master/root/20220623/g3gy/62b3819faeb26921af423d20/-473Wx593H-464531848-navy-MODEL.jpg" alt="Colmar Academy Logo">
+                <img class="img-responsive d-md-none" src="https://fs02.vseosvita.ua/02008m2x-70d7-473x593.jpg" alt="on campus Logo">
+                <img class="img-responsive d-md-none" src="https://logodix.com/logo/906518.jpg" alt="online Logo">
+                <img class="img-responsive d-md-none" src="https://logodix.com/logo/906518.jpg" alt="login Logo">
+				<img class="img-responsive d-md-none" src="https://www.wholesalecatalogz.com/image/cache/catalog/23-03-25/sarees-wholesaler-surat-9045d0de6f44d760b59ec32b4e2ea9a1-473x593.jpeg" alt="Colmar Academy Logo">
+                <img class="img-responsive d-md-none" src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/LN8321-473x593.jpg" alt="on campus Logo">
+                <img class="img-responsive d-md-none" src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/linen/ln-8041-473x593.jpg" alt="online Logo">
+                <img class="img-responsive d-md-none" src="https://sareego.com/image/cache/catalog/DIGITAL%20SAREE/LINEN%20SAREE/linen/ln-8041-473x593.jpg" alt="login Logo">
+            </div>
+
+            
+        </section>
+
+
+        <div class="bg-light py-5">
+            <div class="container py-5">
+              <div class="row mb-4">
+                <div class="col-lg-5">
+                  <h2 class="display-4 font-weight-light">Our team</h2>
+                  <p class="font-italic text-muted">We are Enthusiastic Java Full Stack Devloper. We have caliber to build the Nation.</p>
+                </div>
+              </div>
+          
+              <div class="row text-center">
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                  <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Koshika Agrawal</h5><span class="small text-uppercase text-muted">JSD/JFSD</span>
+                    <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- End-->
+          
+                <!-- Team item-->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                  <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Rishabh Jain</h5><span class="small text-uppercase text-muted">JSD/JFSD</span>
+                    <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- End-->
+          
+                <!-- Team item-->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                  <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Akshat Srivastav</h5><span class="small text-uppercase text-muted">JSD/JFSD</span>
+                    <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- End-->
+          
+                <!-- Team item-->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                  <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Hritk Rawat</h5><span class="small text-uppercase text-muted">JSD/JFSD</span>
+                    <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-xl-2 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                      <h5 class="mb-0">Ravinder</h5><span class="small text-uppercase text-muted">JSD/JFSD</span>
+                      <ul class="social mb-0 list-inline mt-3">
+                        <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                <!-- End-->
+          
+
+
+		<!-- Footer -->
+		<footer class="border-top">
+        <div class="container mt-3 mb-5">
+            <div class="row">
+                <div class="col-md-10 mt-2">
+                    <p>&copy; 2016 Vegas-Ecommerce. All rights reserved</p>
+                </div>
+                <div class="col-md-2 navbar-nav d-md-inline-block d-none">
+                    <ul>
+                        <li class="nav-item d-md-inline-block"><a href="#" class="nav-link">Terms</a></li>
+                        <li class="nav-item d-md-inline-block"><a href="#" class="nav-link">Privacy</a></li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </footer>
+	  
+	  
+	  
+	  
+
+   
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

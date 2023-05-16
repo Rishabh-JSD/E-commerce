@@ -1,0 +1,199 @@
+
+    /* Custom CSS for the code */
+
+    /* Set a minimum height for the row to vertically center the content */
+    .row.h-100 {
+      min-height: 100vh;
+    }
+
+    /* Adjust the margin and padding for the container and columns */
+    .container {
+      margin-top:0px;
+    }
+
+    .col-lg-6 {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    /* Style the About section */
+    .bg-light {
+      background-color: #f8f9fa;
+    }
+
+    h1.display-4 {
+      font-size: 3.5rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    p.lead.text-muted {
+      font-size: 1.5rem;
+      color: #777777;
+    }
+
+    /* Style the Features section */
+    .bg-white {
+      background-color: #ffffff;
+    }
+
+    h2.font-weight-light {
+      font-size: 2.5rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    p.font-italic.text-muted {
+      font-style: italic;
+      color: #777777;
+    }
+
+    .btn-light {
+      color: #ffffff;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+      transition: all 0.3s ease;
+    }
+
+    .btn-light:hover {
+      background-color: #138496;
+      border-color: #138496;
+    }
+
+    /* Style the Team section */
+    .bg-light.py-5 {
+      background-color: #f8f9fa;
+    }
+
+    h2.display-4.font-weight-light {
+      font-size: 3.5rem;
+      font-weight: 300;
+      margin-bottom: 40px;
+      color: #333333;
+    }
+
+    p.font-italic.text-muted {
+      font-style: italic;
+      color: #777777;
+    }
+
+    .social-link {
+      color: #17a2b8;
+      transition: all 0.3s ease;
+    }
+
+    .social-link:hover {
+      color: #138496;
+    }
+
+    /* Style the Footer */
+    footer.bg-light {
+      background-color: #f8f9fa;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    p.font-italic.text-muted {
+      font-style: italic;
+      color: #777777;
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 991px) {
+      .col-lg-6 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .d-lg-block {
+        display: none !important;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .col-lg-5,
+      .col-lg-6 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .px-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+      .order-2,
+      .order-lg-1 {
+        order: 1 !important;
+      }
+      .order-1,
+      .order-lg-2 {
+        order: 2 !important;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .col-lg-5,
+      .col-lg-6,
+      .col-xl-3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Custom CSS for hover effects */
+a:hover {
+  text-decoration: none;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+.hover-opacity:hover {
+  opacity: 0.8;
+}
+
+.hover-translate:hover {
+  transform: translateY(-5px);
+}
+
+.hover-rotate:hover {
+  transform: rotate(10deg);
+}
+
+.hover-shadow:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  @media (max-width: 768px) {
+    .col-lg-6.d-none.d-lg-block {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-lg-5.px-5.mx-auto {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+}
